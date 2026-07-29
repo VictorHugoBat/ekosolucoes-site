@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" width="560" height="520" role="img" aria-labelledby="heroIllTitle">
+  <title id="heroIllTitle">Ilustração de uma casa protegida por um escudo verde, representando a proteção contra pragas oferecida pela Eko Soluções</title>
+
+  <!-- Fundo circular suave -->
+  <circle cx="280" cy="260" r="230" fill="#EAF4EB"/>
+  <circle cx="280" cy="260" r="230" fill="none" stroke="#DCEEDD" stroke-width="1.5" stroke-dasharray="2 10"/>
+
+  <!-- Chão / sombra -->
+  <ellipse cx="280" cy="430" rx="170" ry="18" fill="#1B5E20" opacity="0.08"/>
+
+  <!-- Casa -->
+  <g>
+    <!-- Telhado -->
+    <polygon points="150,230 280,140 410,230" fill="#2E7D32"/>
+    <polygon points="150,230 410,230 410,245 150,245" fill="#1B5E20"/>
+    <!-- Corpo da casa -->
+    <rect x="175" y="230" width="210" height="170" rx="6" fill="#FFFFFF" stroke="#DCEEDD" stroke-width="2"/>
+    <!-- Porta -->
+    <rect x="255" y="320" width="50" height="80" rx="4" fill="#2E7D32"/>
+    <circle cx="292" cy="362" r="3" fill="#FFC107"/>
+    <!-- Janelas -->
+    <rect x="196" y="260" width="42" height="42" rx="4" fill="#EAF4EB" stroke="#2E7D32" stroke-width="2"/>
+    <line x1="217" y1="260" x2="217" y2="302" stroke="#2E7D32" stroke-width="2"/>
+    <line x1="196" y1="281" x2="238" y2="281" stroke="#2E7D32" stroke-width="2"/>
+    <rect x="322" y="260" width="42" height="42" rx="4" fill="#EAF4EB" stroke="#2E7D32" stroke-width="2"/>
+    <line x1="343" y1="260" x2="343" y2="302" stroke="#2E7D32" stroke-width="2"/>
+    <line x1="322" y1="281" x2="364" y2="281" stroke="#2E7D32" stroke-width="2"/>
+  </g>
+
+  <!-- Escudo de proteção envolvendo a casa -->
+  <g transform="translate(280,272)">
+    <path d="M0,-165 C55,-150 95,-140 130,-135 C138,-40 105,55 0,110 C-105,55 -138,-40 -130,-135 C-95,-140 -55,-150 0,-165 Z"
+          fill="none" stroke="#2E7D32" stroke-width="6" stroke-linejoin="round" opacity="0.9"/>
+    <path d="M0,-165 C55,-150 95,-140 130,-135 C138,-40 105,55 0,110 C-105,55 -138,-40 -130,-135 C-95,-140 -55,-150 0,-165 Z"
+          fill="#2E7D32" opacity="0.05"/>
+  </g>
+
+  <!-- Selo de check no topo do escudo -->
+  <g transform="translate(280,95)">
+    <circle r="26" fill="#FFC107"/>
+    <path d="M-11,0 L-3,9 L13,-10" fill="none" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Pragas "bloqueadas" ao redor (ícones minimalistas com traço de proibido) -->
+  <g transform="translate(90,150)">
+    <circle r="24" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+    <path d="M-9,-3 Q0,-9 9,-3 Q6,4 0,4 Q-6,4 -9,-3 Z" fill="#B0BEC0"/>
+    <line x1="-14" y1="-14" x2="14" y2="14" stroke="#EF5350" stroke-width="2.5"/>
+    <circle r="24" fill="none" stroke="#EF5350" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(470,150)">
+    <circle r="24" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+    <path d="M0,-9 L0,9 M-9,0 L9,0 M-6,-6 L6,6 M-6,6 L6,-6" stroke="#B0BEC0" stroke-width="2"/>
+    <line x1="-14" y1="-14" x2="14" y2="14" stroke="#EF5350" stroke-width="2.5"/>
+    <circle r="24" fill="none" stroke="#EF5350" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(90,340)">
+    <path d="M-8,8 Q-10,-6 0,-10 Q10,-6 8,8 Z" fill="#B0BEC0"/>
+    <circle r="24" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2" opacity="0"/>
+    <line x1="-14" y1="-14" x2="14" y2="14" stroke="#EF5350" stroke-width="2.5"/>
+    <circle r="24" fill="none" stroke="#EF5350" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(470,340)">
+    <path d="M-10,0 Q-4,-10 0,0 Q4,-10 10,0 Q4,10 0,0 Q-4,10 -10,0 Z" fill="#B0BEC0"/>
+    <circle r="24" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0"/>
+    <line x1="-14" y1="-14" x2="14" y2="14" stroke="#EF5350" stroke-width="2.5"/>
+    <circle r="24" fill="none" stroke="#EF5350" stroke-width="2.5"/>
+  </g>
+
+  <!-- Folhas decorativas (produto seguro / natureza) -->
+  <g transform="translate(430,420)" fill="#66BB6A">
+    <path d="M0,0 C20,-10 35,-30 30,-55 C5,-50 -15,-30 0,0 Z"/>
+  </g>
+  <g transform="translate(120,430)" fill="#66BB6A" opacity="0.8">
+    <path d="M0,0 C-18,-8 -30,-26 -25,-48 C-3,-44 14,-26 0,0 Z"/>
+  </g>
+</svg>

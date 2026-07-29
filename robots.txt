@@ -1,0 +1,7 @@
+# robots.txt — Eko Soluções
+# Libera a indexação completa do site para todos os buscadores.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ekosolucoes.com.br/sitemap.xml
