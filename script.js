@@ -20,7 +20,7 @@
    botão flutuante) usam esta mesma constante — veja o README.md.
    Formato: código do país + DDD + número, apenas dígitos.
 ------------------------------------------------------------------------- */
-const WHATSAPP_NUMBER = "6236615197";
+const WHATSAPP_NUMBER = "556236615197";
 
 /* Número de telefone usado nos botões "Ligar agora" / rodapé.
    Por padrão usamos o mesmo número do WhatsApp; troque aqui se a empresa
@@ -42,7 +42,7 @@ const PHONE_DISPLAY = "(62) 98183-3627";
   function setupWhatsappLinks() {
     var links = document.querySelectorAll(".js-whatsapp-link");
     links.forEach(function (link) {
-      var message = link.getAttribute("data-wa-message") || "Olá! Vim pelo site, gostaria de um orçamento.";
+      var message = link.getAttribute("data-wa-message") || "Olá! Vim pelo site da Eko Soluções. Gostaria de um orçamento.";
       var url = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
       link.setAttribute("href", url);
       link.setAttribute("target", "_blank");
