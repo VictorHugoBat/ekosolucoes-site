@@ -1,0 +1,14 @@
+git status
+
+git add .
+
+git commit -m "Atualiza site"
+
+
+git push
+
+
+git branch
+
+
+git push origin main
